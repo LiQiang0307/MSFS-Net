@@ -17,8 +17,12 @@ Tensorboard
 
 We provide our pre-trained models. You can test our network following the instruction below.
 
-链接：https://pan.baidu.com/s/1FwHEuyivhCP_BynZC0Ayjw 
-提取码：0516
+Baidu link：https://pan.baidu.com/s/1FwHEuyivhCP_BynZC0Ayjw 
+password：0516
+
+Google drive：
+
+https://drive.google.com/drive/folders/1l0A8l1zqJJ6KOqNizQSFQIH3tksjOUMt?usp=sharing
 
 | weights    | training dataset |
 | --------   | -----:  |
