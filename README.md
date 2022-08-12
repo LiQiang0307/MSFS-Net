@@ -2,6 +2,54 @@
 Multi-scale frequency separation network for image deblurring
 
 
-## 模型权重
+## Installation
+```
+Python 3.7.13
+pytorch  1.9.0
+CUDA 10.2
+scikit-image
+opencv-python
+Tensorboard
+```
+
+
+## Pretrained Models
+
+We provide our pre-trained models. You can test our network following the instruction below.
+
 链接：https://pan.baidu.com/s/1FwHEuyivhCP_BynZC0Ayjw 
 提取码：0516
+
+| weights    | training dataset |
+| --------   | -----:  |
+| model.pkl     | GoPro  | 
+| model_R.pkl        |   RealBlur-R   | 
+| model_J.pkl      |   RealBlur-J   | 
+
+## Dataset
+#### GoPro
+* Download deblur dataset from the [GoPro dataset](https://seungjunnah.github.io/Datasets/gopro.html).
+* Unzip files `dataset` folder.
+* Preprocess dataset by running the command below:
+
+  `python data/preprocessing.py`
+
+* After preparing data set, the data folder should be like the format below:
+  ```
+  GOPRO
+  ├─ train
+  │ ├─ blur    % 2103 image pairs
+  │ │ ├─ xxxx.png
+  │ │ ├─ ......
+  │ │
+  │ ├─ sharp
+  │ │ ├─ xxxx.png
+  │ │ ├─ ......
+  │
+  ├─ test    % 1111 image pairs
+  │ ├─ ...... (same as train)
+
+  ```
+#### HIDE
+
+#### RealBlur
