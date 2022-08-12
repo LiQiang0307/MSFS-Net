@@ -12,7 +12,7 @@ import torch
 import argparse
 from torch.backends import cudnn
 from models.freNet import make_model as build_net
-from eval_R import _eval
+from eval import _eval
 from models.local_arch import make_model as build_arch_net
 
 def main(args):
