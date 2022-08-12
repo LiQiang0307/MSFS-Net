@@ -66,3 +66,24 @@ prepare datasets
 #### RealBlur
 * Download deblur dataset from the [RealBlur dataset](https://github.com/rimchang/RealBlur)
 * The data folder should be like the format as same as GoPro datasets.
+
+
+## Test
+#### GoPro and HIDE
+To test MSFS-Net，run the command below:
+```
+python main.py --model_name "MSFS-Net" --mode "test" --data_dir "dataset/GOPRO" --test_model "model.pkl"
+```
+**note**:You should change line 32 of `main.py` to `model=build_net()` 
+
+or to test MSFS-Net-Local, run the command below:
+```
+python main.py --model_name "MSFS-Net-Local" --mode "test" --data_dir "dataset/GOPRO" --test_model "model.pkl"
+```
+
+**note**:You should change line 32 of `main.py` to `model=build_arch_net()` 
+#### RealBlur
+  The run command is the same as above，but you should change line 15 of `main.py` to `from eval_R import _eval` 
+
+## PSNR and SSIM
+We measured PSNR and SSIM using matlab functions.
