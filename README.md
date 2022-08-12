@@ -27,6 +27,9 @@ We provide our pre-trained models. You can test our network following the instru
 | model_J.pkl      |   RealBlur-J   | 
 
 ## Dataset
+
+prepare datasets
+
 #### GoPro
 * Download deblur dataset from the [GoPro dataset](https://seungjunnah.github.io/Datasets/gopro.html).
 * Unzip files `dataset` folder.
@@ -51,5 +54,15 @@ We provide our pre-trained models. You can test our network following the instru
 
   ```
 #### HIDE
+* Download deblur dataset from the [HIDE dataset](https://github.com/joanshen0508/HA_deblur)
+* Preprocess dataset by running the command below:
+
+  `python data/HIDE.py`
+  
+  **note**: Please change the path of the dataset location in the code
+  
+  **format**：the same as GoPro datasets
 
 #### RealBlur
+* Download deblur dataset from the [RealBlur dataset](https://github.com/rimchang/RealBlur)
+* The data folder should be like the format as same as GoPro datasets.
