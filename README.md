@@ -15,7 +15,7 @@ Tensorboard
 
 ## Pretrained Models
 
-We provide our pre-trained models. You can test our network following the instruction below.
+We provide our pre-trained models. You can test our network according to the instruction below.
 
 Baidu link：https://pan.baidu.com/s/1FwHEuyivhCP_BynZC0Ayjw 
 password：0516
@@ -69,7 +69,7 @@ prepare datasets
 
 #### RealBlur
 * Download deblur dataset from the [RealBlur dataset](https://github.com/rimchang/RealBlur)
-* The data folder should be like the format as same as GoPro datasets.
+* The data folder should be like the format of GoPro datasets.
 
 
 ## Test
