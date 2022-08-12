@@ -82,8 +82,12 @@ python main.py --model_name "MSFS-Net-Local" --mode "test" --data_dir "dataset/G
 ```
 
 **note**:You should change line 32 of `main.py` to `model=build_arch_net()` 
+
+Output images will be saved in `results/model_name/result_image folder`.
+
 #### RealBlur
   The run command is the same as above，but you should change line 15 of `main.py` to `from eval_R import _eval` 
+
 
 ## PSNR and SSIM
 We measured PSNR and SSIM using matlab functions.
